@@ -1,0 +1,258 @@
+{
+  "traditional": [
+    {
+      "id": "spring-festival",
+      "name": "春节",
+      "nameJa": "春節（旧正月）",
+      "category": "traditional",
+      "description": "中国最重要的传统节日，庆祝农历新年的到来",
+      "descriptionJa": "中国で最も重要な伝統的祝日。旧暦の新年を祝い、家族が集まり、餃子を食べ、爆竹を鳴らします。",
+      "lunarDate": { "month": 1, "day": 1 },
+      "icon": "🧧"
+    },
+    {
+      "id": "lantern-festival",
+      "name": "元宵节",
+      "nameJa": "元宵節（灯籠祭り）",
+      "category": "traditional",
+      "description": "正月十五，赏花灯、吃元宵",
+      "descriptionJa": "旧暦1月15日に行われる祭り。美しい灯籠を飾り、湯圓（団子）を食べて祝います。",
+      "lunarDate": { "month": 1, "day": 15 },
+      "icon": "🏮"
+    },
+    {
+      "id": "qingming",
+      "name": "清明节",
+      "nameJa": "清明節",
+      "category": "traditional",
+      "description": "祭祖扫墓，缅怀先人",
+      "descriptionJa": "先祖を偲び墓参りをする日。春の訪れを感じながら、故人を敬います。",
+      "solarDate": { "month": 4, "day": 4 },
+      "icon": "🌿"
+    },
+    {
+      "id": "dragon-boat",
+      "name": "端午节",
+      "nameJa": "端午節（ドラゴンボート祭り）",
+      "category": "traditional",
+      "description": "纪念屈原，吃粽子、赛龙舟",
+      "descriptionJa": "詩人屈原を偲ぶ祭り。粽（ちまき）を食べ、龍舟競漕が行われます。",
+      "lunarDate": { "month": 5, "day": 5 },
+      "icon": "🐉"
+    },
+    {
+      "id": "qixi",
+      "name": "七夕节",
+      "nameJa": "七夕節",
+      "category": "traditional",
+      "description": "中国情人节，牛郎织女相会之日",
+      "descriptionJa": "牽牛と織女の伝説に基づく恋人たちの日。中国のバレンタインデー。",
+      "lunarDate": { "month": 7, "day": 7 },
+      "icon": "💫"
+    },
+    {
+      "id": "mid-autumn",
+      "name": "中秋节",
+      "nameJa": "中秋節",
+      "category": "traditional",
+      "description": "赏月、吃月饼、阖家团圆",
+      "descriptionJa": "満月を愛で、月餅を食べ、家族の団欒を楽しむ祝日。",
+      "lunarDate": { "month": 8, "day": 15 },
+      "icon": "🥮"
+    },
+    {
+      "id": "double-ninth",
+      "name": "重阳节",
+      "nameJa": "重陽節",
+      "category": "traditional",
+      "description": "登高望远、敬老爱老",
+      "descriptionJa": "高い山に登り、菊酒を飲み、長寿を祈る日。敬老の日の起源。",
+      "lunarDate": { "month": 9, "day": 9 },
+      "icon": "🏔️"
+    },
+    {
+      "id": "winter-solstice",
+      "name": "冬至",
+      "nameJa": "冬至",
+      "category": "traditional",
+      "description": "一年中白天最短的一天，北方吃饺子，南方吃汤圆",
+      "descriptionJa": "一年で最も昼が短い日。北部では餃子、南部では湯圓を食べる習慣があります。",
+      "solarDate": { "month": 12, "day": 22 },
+      "icon": "❄️"
+    },
+    {
+      "id": "laba",
+      "name": "腊八节",
+      "nameJa": "臘八節",
+      "category": "traditional",
+      "description": "农历十二月初八，喝腊八粥",
+      "descriptionJa": "旧暦12月8日。八種類の穀物で作った粥を食べ、新年を迎える準備をします。",
+      "lunarDate": { "month": 12, "day": 8 },
+      "icon": "🍚"
+    },
+    {
+      "id": "xiaonian",
+      "name": "小年",
+      "nameJa": "小年（竈神祭り）",
+      "category": "traditional",
+      "description": "祭灶神，准备过年",
+      "descriptionJa": "竈の神様を天に送り、新年の準備を始める日。",
+      "lunarDate": { "month": 12, "day": 23 },
+      "icon": "🔥"
+    }
+  ],
+  "religious": [
+    {
+      "id": "buddha-birthday",
+      "name": "佛诞节",
+      "nameJa": "仏誕節（釈迦誕生日）",
+      "category": "religious",
+      "description": "纪念释迦牟尼佛诞辰",
+      "descriptionJa": "釈迦牟尼仏の誕生を祝う日。浴仏会が行われます。",
+      "lunarDate": { "month": 4, "day": 8 },
+      "icon": "☸️"
+    },
+    {
+      "id": "guanyin-birthday",
+      "name": "观音诞",
+      "nameJa": "観音誕",
+      "category": "religious",
+      "description": "纪念观世音菩萨诞辰",
+      "descriptionJa": "観世音菩薩の誕生日。寺院で法要が行われます。",
+      "lunarDate": { "month": 2, "day": 19 },
+      "icon": "🙏"
+    },
+    {
+      "id": "mazu-birthday",
+      "name": "妈祖诞",
+      "nameJa": "媽祖誕",
+      "category": "religious",
+      "description": "纪念海上女神妈祖诞辰",
+      "descriptionJa": "海の女神・媽祖の誕生日。特に沿海地域で盛大に祝われます。",
+      "lunarDate": { "month": 3, "day": 23 },
+      "icon": "🌊"
+    },
+    {
+      "id": "zhongyuan",
+      "name": "中元节",
+      "nameJa": "中元節（盂蘭盆会）",
+      "category": "religious",
+      "description": "祭祀祖先和亡魂",
+      "descriptionJa": "先祖や亡くなった魂を供養する日。仏教と道教が融合した行事。",
+      "lunarDate": { "month": 7, "day": 15 },
+      "icon": "🕯️"
+    },
+    {
+      "id": "laozi-birthday",
+      "name": "老子诞",
+      "nameJa": "老子誕（太上老君聖誕）",
+      "category": "religious",
+      "description": "道教创始人老子诞辰",
+      "descriptionJa": "道教の創始者・老子の誕生日。道教寺院で祭事が行われます。",
+      "lunarDate": { "month": 2, "day": 15 },
+      "icon": "☯️"
+    },
+    {
+      "id": "jade-emperor",
+      "name": "天公生",
+      "nameJa": "天公生（玉皇大帝誕辰）",
+      "category": "religious",
+      "description": "玉皇大帝诞辰",
+      "descriptionJa": "道教の最高神・玉皇大帝の誕生日。正月初九に祝われます。",
+      "lunarDate": { "month": 1, "day": 9 },
+      "icon": "👑"
+    },
+    {
+      "id": "confucius-birthday",
+      "name": "孔子诞辰",
+      "nameJa": "孔子誕辰（教師節）",
+      "category": "religious",
+      "description": "纪念孔子诞辰",
+      "descriptionJa": "儒教の創始者・孔子の誕生日。学問の神様として崇敬されます。",
+      "solarDate": { "month": 9, "day": 28 },
+      "icon": "📚"
+    }
+  ],
+  "folk": [
+    {
+      "id": "longtaitou",
+      "name": "龙抬头",
+      "nameJa": "龍抬頭（龍が頭をもたげる日）",
+      "category": "folk",
+      "description": "二月二，龙抬头，理发剪头好兆头",
+      "descriptionJa": "旧暦2月2日。春の訪れを告げ、この日に髪を切ると縁起が良いとされます。",
+      "lunarDate": { "month": 2, "day": 2 },
+      "icon": "🐲"
+    },
+    {
+      "id": "shangsi",
+      "name": "上巳节",
+      "nameJa": "上巳節",
+      "category": "folk",
+      "description": "三月三，踏青游春",
+      "descriptionJa": "旧暦3月3日。水辺で身を清め、春の野遊びを楽しむ古代の祭り。",
+      "lunarDate": { "month": 3, "day": 3 },
+      "icon": "🌸"
+    },
+    {
+      "id": "hanshi",
+      "name": "寒食节",
+      "nameJa": "寒食節",
+      "category": "folk",
+      "description": "清明前一两天，禁火吃冷食",
+      "descriptionJa": "清明節の前日。火を使わず冷たい食べ物を食べる習慣があります。",
+      "solarDate": { "month": 4, "day": 3 },
+      "icon": "🍃"
+    },
+    {
+      "id": "chinese-navy-day",
+      "name": "中国航海日",
+      "nameJa": "中国航海日",
+      "category": "folk",
+      "description": "纪念郑和下西洋",
+      "descriptionJa": "鄭和の大航海を記念する日。海洋文化の振興を目的としています。",
+      "solarDate": { "month": 7, "day": 11 },
+      "icon": "⛵"
+    },
+    {
+      "id": "double-ten",
+      "name": "十月十日",
+      "nameJa": "双十節",
+      "category": "folk",
+      "description": "辛亥革命纪念日",
+      "descriptionJa": "辛亥革命を記念する日。中華民国の国慶日として知られます。",
+      "solarDate": { "month": 10, "day": 10 },
+      "icon": "🎌"
+    },
+    {
+      "id": "ghost-month-start",
+      "name": "鬼门开",
+      "nameJa": "鬼門開き",
+      "category": "folk",
+      "description": "七月初一，鬼门打开",
+      "descriptionJa": "旧暦7月1日。冥界の門が開き、亡霊がこの世に戻ってくるとされます。",
+      "lunarDate": { "month": 7, "day": 1 },
+      "icon": "👻"
+    },
+    {
+      "id": "lichun",
+      "name": "立春",
+      "nameJa": "立春",
+      "category": "folk",
+      "description": "二十四节气之首，春天的开始",
+      "descriptionJa": "二十四節気の最初。春の始まりを告げ、春餅を食べる習慣があります。",
+      "solarDate": { "month": 2, "day": 4 },
+      "icon": "🌱"
+    },
+    {
+      "id": "xiaoman",
+      "name": "小满",
+      "nameJa": "小満",
+      "category": "folk",
+      "description": "夏季的第二个节气",
+      "descriptionJa": "二十四節気の一つ。穀物が実り始める季節の到来を示します。",
+      "solarDate": { "month": 5, "day": 21 },
+      "icon": "🌾"
+    }
+  ]
+}
