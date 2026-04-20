@@ -1,18 +1,6 @@
 import type { Metadata } from 'next'
-import { Noto_Serif_SC, Geist } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-
-const notoSerifSC = Noto_Serif_SC({ 
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-serif"
-});
-
-const geist = Geist({ 
-  subsets: ["latin"],
-  variable: "--font-sans"
-});
 
 export const metadata: Metadata = {
   title: '本日の記念日 - 中国伝統暦',
@@ -43,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ja" className={`${notoSerifSC.variable} ${geist.variable}`}>
+    <html lang="ja">
       <body className="font-sans antialiased bg-background">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
