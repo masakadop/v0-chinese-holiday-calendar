@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { TodayHero } from "@/components/today-hero";
 import { TodaySection } from "@/components/today-section";
 import { AnniversaryList } from "@/components/anniversary-list";
+import { DailyArticle } from "@/components/daily-article";
 import {
   getAllAnniversaries,
   Anniversary,
@@ -15,9 +16,10 @@ import {
   isNearLunarDate,
   isNearSolarDate,
 } from "@/lib/lunar-calendar";
+import { generateDailyArticle } from "@/lib/daily-article";
 
 export default function ChineseAnniversaryPage() {
-  const { date, lunarDate, todayAnniversaries, upcomingAnniversaries } = useMemo(() => {
+  const { date, lunarDate, todayAnniversaries, upcomingAnniversaries, dailyArticle } = useMemo(() => {
     const now = new Date();
     const lunar = solarToLunar(now);
     const allAnniversaries = getAllAnniversaries();
@@ -54,6 +56,12 @@ export default function ChineseAnniversaryPage() {
       lunarDate: lunar,
       todayAnniversaries: today,
       upcomingAnniversaries: upcoming,
+      dailyArticle: generateDailyArticle({
+        date: now,
+        lunarDate: lunar,
+        todayAnniversaries: today,
+        upcomingAnniversaries: upcoming,
+      }),
     };
   }, []);
 
@@ -90,6 +98,12 @@ export default function ChineseAnniversaryPage() {
       <div className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         {/* 今日の日付表示 */}
         <TodayHero date={date} lunarDate={lunarDate} />
+
+        {/* データをもとにした記事 */}
+        <DailyArticle
+          title={dailyArticle.title}
+          paragraphs={dailyArticle.body}
+        />
 
         {/* 今日と近日中の記念日 */}
         <section>
