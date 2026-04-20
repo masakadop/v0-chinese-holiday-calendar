@@ -62,7 +62,7 @@ export function generateDailyArticle({
   ];
 
   return {
-    title: "データから生成した本日の文化記事",
+    title: "本日の文化記事",
     body,
   };
 }
